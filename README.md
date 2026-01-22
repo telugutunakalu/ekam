@@ -4,7 +4,7 @@ A cultural event website bringing literature and cinema together on a single pla
 
 ## Event Details
 
-- **Date:** February 14, 2025
+- **Date:** February 14, 2026
 - **Venue:** T-Works, Hyderabad
 - **Time:** 9:00 AM - 9:00 PM
 
@@ -47,4 +47,4 @@ This website is designed to be deployed on GitHub Pages:
 
 ## License
 
-Copyright 2025 Telugu Collective & Psychic Filmmaker. All rights reserved.
+Copyright 2026 Telugu Collective & Psychic Filmmaker. All rights reserved.
