@@ -189,6 +189,12 @@ button {
     font-size: var(--fs-base);
 }
 
+.btn--disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 /* ========== SECTION HEADERS ========== */
 .section__header {
     text-align: center;
@@ -832,6 +838,18 @@ button {
     transform: scale(1.05);
 }
 
+.speaker-card__image--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark);
+}
+
+.speaker-card__image--placeholder svg {
+    color: var(--color-primary);
+    opacity: 0.5;
+}
+
 .speaker-card__name {
     font-size: var(--fs-base);
     font-weight: 700;
@@ -909,6 +927,40 @@ button {
     transform: scale(1.05);
 }
 
+.sponsor-logo--coming-soon {
+    min-width: 150px;
+    min-height: 60px;
+    background-color: var(--color-light-gray);
+    border: 2px dashed var(--color-gray);
+    filter: none;
+}
+
+.sponsor-logo--coming-soon span {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--color-gray);
+}
+
+.sponsor-logo--coming-soon:hover {
+    filter: none;
+    transform: none;
+}
+
+.sponsor-tier__logos--large .sponsor-logo--coming-soon {
+    min-width: 200px;
+    min-height: 100px;
+}
+
+.sponsor-tier__logos--medium .sponsor-logo--coming-soon {
+    min-width: 150px;
+    min-height: 75px;
+}
+
+.sponsor-tier__logos--small .sponsor-logo--coming-soon {
+    min-width: 120px;
+    min-height: 60px;
+}
+
 .sponsor-tier__logos--large .sponsor-logo img {
     max-width: 200px;
     max-height: 100px;
@@ -979,6 +1031,37 @@ button {
 
 .gallery__item:hover .gallery__overlay {
     opacity: 1;
+}
+
+/* Coming Soon Placeholder */
+.coming-soon-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--spacing-3xl) var(--spacing-xl);
+    background-color: var(--color-off-white);
+    border-radius: var(--radius-xl);
+    border: 2px dashed var(--color-light-gray);
+}
+
+.coming-soon-placeholder svg {
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    opacity: 0.6;
+}
+
+.coming-soon-placeholder h3 {
+    font-size: var(--fs-xl);
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: var(--spacing-sm);
+}
+
+.coming-soon-placeholder p {
+    font-size: var(--fs-sm);
+    color: var(--color-gray);
 }
 
 /* ========== LOCATION SECTION ========== */
