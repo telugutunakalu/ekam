@@ -561,7 +561,7 @@ button {
 .organizer-card__logo img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .organizer-card__title {
@@ -1231,8 +1231,9 @@ button {
 }
 
 .footer__org-logos img {
-    height: 40px;
-    width: auto;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
 }
 
 .footer__social-links {
